@@ -7,8 +7,7 @@ extern "C++"{
 #include "Spell.h"
 #include "NonSpell.h"
 #include "MTGCardManager.h"
+#include "CardHelper.h"
 
 #define _CM MTGCardManager::_Instance()
 }
-/*extern class Spell;
-extern class NonSpell;*/

@@ -3,8 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "../MTGCore/MTGInterface.h"
-#include "../MTGCore/CardHelper.h"
+#include "MTGInterface.h"
 
 typedef  unsigned int uint;
 

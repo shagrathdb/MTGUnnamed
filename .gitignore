@@ -1,0 +1,6 @@
+*.suo
+
+bin/
+debug/
+release/
+ipch/

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CardModel">
+      <UniqueIdentifier>{1d9e42e5-0268-4c16-b3ae-192684bfe295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardHelper">
+      <UniqueIdentifier>{dcccdde5-1724-4355-8b2e-9482f270ffa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardModel\Types">
+      <UniqueIdentifier>{96688c05-9163-4ded-8b03-0c8a24a34a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardModel\Types\Permanent">
+      <UniqueIdentifier>{a6f60c64-c3a9-4ffe-a134-ddde3245afe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CardManager">
+      <UniqueIdentifier>{c1e384de-97eb-485d-a65f-160f73d943a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Spell.h">
+      <Filter>Source Files\CardModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Source Files\CardModel</Filter>
+    </ClInclude>
+    <ClInclude Include="NonSpell.h">
+      <Filter>Source Files\CardModel</Filter>
+    </ClInclude>
+    <ClInclude Include="MTGInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardHelper.h">
+      <Filter>Source Files\CardHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Permanent.h">
+      <Filter>Source Files\CardModel</Filter>
+    </ClInclude>
+    <ClInclude Include="NonPermanent.h">
+      <Filter>Source Files\CardModel</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingWeapon.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="Artifact.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtifactCreature.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="Aura.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="Enchantment.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.h">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClInclude>
+    <ClInclude Include="MTGCardManager.h">
+      <Filter>Source Files\CardManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\CardModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source Files\CardModel</Filter>
+    </ClCompile>
+    <ClCompile Include="NonSpell.cpp">
+      <Filter>Source Files\CardModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CardHelper.cpp">
+      <Filter>Source Files\CardHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Permanent.cpp">
+      <Filter>Source Files\CardModel</Filter>
+    </ClCompile>
+    <ClCompile Include="NonPermanent.cpp">
+      <Filter>Source Files\CardModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Artifact.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtifactCreature.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="Aura.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="Enchantment.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingWeapon.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>Source Files\CardModel\Types\Permanent</Filter>
+    </ClCompile>
+    <ClCompile Include="MTGCardManager.cpp">
+      <Filter>Source Files\CardManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

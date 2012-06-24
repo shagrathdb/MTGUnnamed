@@ -4,3 +4,7 @@ bin/
 debug/
 release/
 ipch/
+
+
+*.sdf
+*.opensdf
